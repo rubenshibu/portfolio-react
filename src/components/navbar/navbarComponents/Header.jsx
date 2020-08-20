@@ -1,7 +1,7 @@
 import React from "react"
 import SocialIcon from "./socialIcons"
 import NavMenuItem from "./NavMenuItems"
-
+import profile from "../navbarComponents/profile.jpg";
 export default function Header() {
   return (
     <div>
@@ -12,7 +12,7 @@ export default function Header() {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="/static/assets/images/profile.jpg"
+              src={profile}
               alt=""
               className="img-fluid rounded-circle"
             />
